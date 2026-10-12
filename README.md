@@ -1,5 +1,4 @@
 # CookRAG
-<<<<<<< HEAD
 ### 一.使用
 **1）创建虚拟环境与对应的环境**
 > `conda create -n cook-rag python=3.12`
@@ -12,6 +11,7 @@
 > `python3 ./code/main.py`
 
 ### 二.文件夹结构
+```bash
 /CookRAG
 |——code（代码）
 │   ├── dense_vectorstore（FAISS向量存储）
@@ -26,7 +26,5 @@
 │   ├── requirements.txt（环境）
 │   └── sparse_vectorstore.pkl（BM25向量存储）
 ├── data（Cook数据源）
+```
 
-=======
-参考All-In-RAG（https://datawhalechina.github.io/all-in-rag/）的实践项目写的简单RAG系统。通过RRF混合检索实现菜谱查询
->>>>>>> origin/main
